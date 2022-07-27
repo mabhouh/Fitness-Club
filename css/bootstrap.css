@@ -3929,15 +3929,19 @@ textarea.form-control-lg {
   display: block;
 }
 
-.navbar {
-  position: relative;
+.navbar{
+  z-index: 10 !important;
+  position: fixed !important;
+  width: 100% !important;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  background-image: linear-gradient(to right ,#1e1e1e , #aec0e7) !important;
 }
+
 .navbar > .container,
 .navbar > .container-fluid,
 .navbar > .container-sm,
