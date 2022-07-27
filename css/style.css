@@ -5,7 +5,7 @@
 }
 
 #header{
-    background-image: url(/images/banner.jpg);
+    background-image: url(images/banner.jpg);
     height: 80vh;
     background-size: cover;
     background-position: center;
@@ -116,7 +116,7 @@ nav .fa-bars{
     margin-bottom: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
-    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(/images/feature-background.jpg);
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/feature-background.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -250,7 +250,7 @@ fa-trophy:before {
 #footer{
     margin-top: 80px;
     padding: 40px 60px 20px 60px;
-    background-color: black;
+    background-image: linear-gradient(to right ,#000000 , #353535);
     color:white;
 }
 
