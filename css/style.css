@@ -1,0 +1,278 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+    background-image: url(/images/banner.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+body{
+
+    background-color: rgb(248, 247, 247);
+}
+
+.navbar-nav li a{
+    padding-left: 20px ;
+}
+
+.navbar-brand img{
+    width: 150px;
+    margin-left: 30px;
+}
+
+.navbar-toggler{
+    border:none !important;
+    outline: none !important;
+}
+
+nav .fa-bars{
+    color: white;
+    font-size: 25px;
+}
+
+.navbar-collapse{
+    padding-left:40px;
+}
+
+.navbar-nav{
+    float: left;
+}
+
+.nav-itemf{
+    text-align: left !important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(251 255 0) !important;
+}
+
+.welcome{
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: white;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.3);
+}
+
+.welcome h1{
+    color: #333;
+}
+
+.welcome .home-btn{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    background-color: #013f7e;
+}
+
+.welcome .btn:focus{
+    box-shadow: none;
+}
+
+#about{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#about .col-md-6{
+    padding: 20px 10px;
+}
+
+#about h3{
+    margin: 20px auto;
+}
+
+#services{
+    background-color: #ebe6e6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#services .col-md-4{
+    padding :20px;
+    text-align: center !important;
+}
+
+#services .col-md-4 h4{
+    padding :5px;
+}
+
+#services .col-md-4 img{
+    width: 60px;
+}
+
+#services .col-md-4 p{
+    padding: 5px;
+    text-align: center !important;
+}
+
+#fuatuers{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(/images/feature-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#fuatuers .col-md-6 img{
+    width: 350px !important;
+    height: 240px !important;
+    padding-left:30px ;
+    justify-content: center;
+}
+
+#fuatuers .col-md-6{
+    padding: 20px;
+}
+
+.fuatuer-box{
+    height: 120px;
+}
+
+.fuatuer-box .fuatuer-left {
+    height: 120px;
+    width: 20%;
+    float: left;
+}
+
+.fuatuer-box .fuatuer-left .fa {
+    font-size: 40px;
+}
+
+.fuatuer-box .fuatuer-right {
+    height: 150px;
+    width: 80%;
+    float: left;
+}
+
+.fuatuer-box .fuatuer-right h4 {
+    padding-left: 10px;
+    text-align: left;
+}
+
+fa-trophy:before {
+    content: "\f091";
+    padding-bottom: 50px;
+}
+
+.fuatuer-box .fuatuer-right p{
+    padding-left: 15px;
+}
+
+#testimonials{
+    padding-bottom: 100px;
+}
+
+#testimonials .col-md-4{
+    padding: 10px 30px;   
+}
+
+#testimonials img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: -15px;
+    margin-top: -30px;
+    border: 5px solid rgb(177, 255, 177);
+    margin-bottom: 30px;
+}
+
+.review{
+    font-size: 16px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+.review .fa-twitter{
+    color: #013f7e;
+}
+
+.review span{
+    color: #013f7e;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#subscribe .subscribe{
+    padding:50px 20px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+}
+
+.subscribe h3, .subscribe p{
+    color:white;
+}
+
+.subscribe .input-group{
+    border-radius: 30px;
+    background: white;
+    max-width: 500px;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+.subscribe .form-control{
+    border: none;
+    background: transparent;
+}
+
+.subscribe .form-control:focus{
+    box-shadow: none;
+    background: transparent;
+}
+
+.subscribe .input-group-append{
+    background-image: linear-gradient(to right ,#1c03b5 , #5c8bef);
+    border-radius: 30px;
+}
+
+.subscribe .input-group-text{
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.subscribe .btn :focus{
+    box-shadow: none;
+}
+
+#footer{
+    margin-top: 80px;
+    padding: 40px 60px 20px 60px;
+    background-color: black;
+    color:white;
+}
+
+.footer-logo{
+    width:150px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+}
+
+#footer h4{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#footer p{
+    font-size:12px;
+    text-align: left;
+    justify-content: center;
+}
+
+#footer .fa{
+    font-size:20px;
+
+}
